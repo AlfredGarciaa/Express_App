@@ -1,4 +1,9 @@
 <resources>
     <string name="app_name">Express_App</string>
-    <string name="prueba">prueba</string>
+    <string name="Alarmas">Alarmas</string>
+    <string name="Cámara">Cámara</string>
+    <string name="Configuraciones">Configuraciones</string>
+    <string name="Contactos">Contactos</string>
+    <string name="Galeria">Galeria</string>
+    <string name="Horario">Horario</string>
 </resources>

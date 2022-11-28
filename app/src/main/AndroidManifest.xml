@@ -28,6 +28,10 @@
             android:name=".Galeria.GaleriaAdapter"
             android:label="@string/title_galeria"
             android:exported="false" />
+        <activity
+            android:name=".Galeria.ImagenCompleta"
+            android:label="@string/title_galeria_completa"
+            android:exported="false" />
     </application>
 
 </manifest>

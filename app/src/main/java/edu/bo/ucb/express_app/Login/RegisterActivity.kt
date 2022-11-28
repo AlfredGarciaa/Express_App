@@ -3,7 +3,10 @@ package edu.bo.ucb.express_app.Login
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.view.View
+import android.widget.Button
 import android.widget.TextView
+import edu.bo.ucb.express_app.Menu.Menu
 import edu.bo.ucb.express_app.R
 
 class RegisterActivity : AppCompatActivity() {
@@ -14,6 +17,12 @@ class RegisterActivity : AppCompatActivity() {
         val tvGoToLogin = findViewById<TextView>(R.id.tv_go_to_login)
         tvGoToLogin.setOnClickListener{
             goToLogin()
+        }
+
+        // CAMBIAR VISTA DE SIGN UP A LOGIN \\
+        val login = findViewById<View>(R.id.btn_login) as Button
+        login.setOnClickListener {
+            startActivity(Intent(this, LoginAdapter::class.java))
         }
     }
     private fun goToLogin(){

@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#4E795A"
-    tools:context=".Menu">
+    tools:context=".Menu.Menu" >
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/rv_buttons"
@@ -27,5 +27,19 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/galeria" />
+
+    <Button
+        android:id="@+id/btn_galeria"
+        android:layout_width="98dp"
+        android:layout_height="41dp"
+        android:layout_marginBottom="6dp"
+        android:text="@string/btn_galeria"
+        app:layout_constraintBottom_toTopOf="@+id/imageView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.083"
+        app:layout_constraintVertical_chainStyle="packed" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

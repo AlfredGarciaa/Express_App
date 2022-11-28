@@ -8,8 +8,8 @@
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="415dp"
-        android:layout_height="727dp"
+        android:layout_width="542dp"
+        android:layout_height="1044dp"
         android:layout_marginTop="2dp"
         android:layout_marginEnd="1dp"
         android:layout_marginBottom="2dp"
@@ -19,5 +19,22 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@mipmap/ic_imagen1" />
+
+    <Button
+        android:id="@+id/btn_galeria"
+        android:layout_width="68dp"
+        android:layout_height="40dp"
+        android:layout_marginBottom="6dp"
+        android:backgroundTint="@color/white"
+        android:text="@string/btn_vista"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:layout_constraintVertical_chainStyle="packed" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

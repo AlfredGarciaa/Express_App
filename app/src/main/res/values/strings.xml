@@ -27,6 +27,7 @@
     <string name="name_contact">Nombre del contacto</string>
     <string name="list_contact">Lista de contactos</string>
     <!-- VISTA DE HORARIO -->
+    <string name="title_horario">Horario</string>
     <string name="action_search">Buscar</string>
     <string name="action_share">Compartir</string>
     <string name="Ajustes">Ajustes</string>

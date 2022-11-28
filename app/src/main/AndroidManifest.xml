@@ -42,6 +42,10 @@
             android:label="@string/title_contactos_lista"
             android:exported="false" />
         <activity
+            android:name=".Horario.HorarioAdapter"
+            android:label="@string/title_horario"
+            android:exported="false" />
+        <activity
             android:name=".Galeria.GaleriaAdapter"
             android:label="@string/title_galeria"
             android:exported="false" />

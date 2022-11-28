@@ -1,16 +1,26 @@
 package edu.bo.ucb.express_app.Horario
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.Menu
 import android.view.MenuItem
+import android.view.View
+import android.widget.Button
 import android.widget.Toast
+import edu.bo.ucb.express_app.Galeria.GaleriaAdapter
 import edu.bo.ucb.express_app.R
 
 class HorarioAdapter : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_horario)
+
+        // CAMBIAR VISTA DE HORARIO A GALERIA \\
+        val galeria = findViewById<View>(R.id.btn_galeria) as Button
+        galeria.setOnClickListener {
+            startActivity(Intent(this, GaleriaAdapter::class.java))
+        }
     }
 
     //Método para mostrar y ocultar el menú

@@ -5,7 +5,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
 import android.widget.Button
-import edu.bo.ucb.express_app.Galeria.GaleriaAdapter
+import edu.bo.ucb.express_app.Horario.HorarioAdapter
 import edu.bo.ucb.express_app.R
 
 class ContactosAdapter : AppCompatActivity() {
@@ -21,9 +21,9 @@ class ContactosAdapter : AppCompatActivity() {
         }
 
         // CAMBIAR VISTA DE MENU A CONTACTOS \\
-        val galeria = findViewById<View>(R.id.btn_galeria) as Button
-        galeria.setOnClickListener {
-            startActivity(Intent(this, GaleriaAdapter::class.java))
+        val horario = findViewById<View>(R.id.btn_horario) as Button
+        horario.setOnClickListener {
+            startActivity(Intent(this, HorarioAdapter::class.java))
         }
     }
 }

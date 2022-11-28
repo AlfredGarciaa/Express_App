@@ -30,16 +30,19 @@ public class GaleriaFotosAdapter extends BaseAdapter {
 
     @Override
     public int getCount() {
+
         return imageArray.length;
     }
 
     @Override
     public Object getItem(int position) {
+
         return imageArray[position];
     }
 
     @Override
     public long getItemId(int position) {
+
         return 0;
     }
 

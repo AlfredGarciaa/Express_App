@@ -6,7 +6,6 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.widget.ImageView;
 import edu.bo.ucb.express_app.R;
-import edu.bo.ucb.express_app.Galeria.GaleriaFotosAdapter;
 
 public class ImagenCompleta extends AppCompatActivity {
     ImageView imageView;

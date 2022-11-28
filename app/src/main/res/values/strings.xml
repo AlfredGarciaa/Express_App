@@ -11,4 +11,5 @@
     <!-- VISTA DE GALERIA -->
     <string name="title_galeria">Galeria</string>
     <string name="iv_foto">Foto</string>
+    <string name="btn_galeria">Galeria</string>
 </resources>

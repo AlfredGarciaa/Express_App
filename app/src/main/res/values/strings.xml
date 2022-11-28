@@ -1,9 +1,14 @@
 <resources>
     <string name="app_name">Express_App</string>
+    <!-- VISTA DE MENU -->
+    <string name="title_menu">Menú</string>
     <string name="Alarmas">Alarmas</string>
     <string name="Cámara">Cámara</string>
     <string name="Configuraciones">Configuraciones</string>
     <string name="Contactos">Contactos</string>
     <string name="Galeria">Galeria</string>
     <string name="Horario">Horario</string>
+    <!-- VISTA DE GALERIA -->
+    <string name="title_galeria">Galeria</string>
+    <string name="iv_foto">Foto</string>
 </resources>

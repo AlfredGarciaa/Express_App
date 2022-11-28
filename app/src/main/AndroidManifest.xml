@@ -16,6 +16,7 @@
 
         <activity
             android:name=".Login.LoginAdapter"
+            android:label="@string/title_login"
             android:exported="true"
             android:launchMode="singleInstance" >
             <intent-filter>
@@ -25,6 +26,7 @@
             </intent-filter>
         </activity>
         <activity android:name=".Login.RegisterActivity"
+            android:label="@string/title_register"
             android:exported="false"
             android:launchMode="singleInstance" />
         <activity

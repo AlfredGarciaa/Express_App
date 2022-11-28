@@ -1,5 +1,9 @@
 <resources>
     <string name="app_name">Express_App</string>
+    <string name="btn_vista">--></string>
+    <!-- VISTA DE LOGIN -->
+    <string name="title_login">Log In</string>
+    <string name="title_register">Sign Up</string>
     <!-- VISTA DE MENU -->
     <string name="title_menu">Menú</string>
     <string name="Alarmas">Alarmas</string>
@@ -12,5 +16,4 @@
     <string name="title_galeria">Galeria</string>
     <string name="title_galeria_completa">Foto Completa</string>
     <string name="iv_foto">Foto</string>
-    <string name="btn_galeria">--></string>
 </resources>

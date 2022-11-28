@@ -1,12 +1,12 @@
-package edu.bo.ucb.express_app
+package edu.bo.ucb.express_app.Menu
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.widget.Button
-import androidx.appcompat.widget.AppCompatDrawableManager.get
 import androidx.recyclerview.widget.GridLayoutManager
 import androidx.recyclerview.widget.RecyclerView
+import edu.bo.ucb.express_app.MainActivity
+import edu.bo.ucb.express_app.R
 
 class Menu : AppCompatActivity() {
     lateinit var rvButtons : RecyclerView

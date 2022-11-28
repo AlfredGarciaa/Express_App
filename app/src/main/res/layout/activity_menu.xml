@@ -29,7 +29,7 @@
         app:srcCompat="@drawable/galeria" />
 
     <Button
-        android:id="@+id/btn_galeria"
+        android:id="@+id/btn_contactos"
         android:layout_width="68dp"
         android:layout_height="40dp"
         android:layout_marginBottom="6dp"

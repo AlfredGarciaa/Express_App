@@ -7,6 +7,7 @@ import android.view.View
 import android.widget.Button
 import androidx.recyclerview.widget.GridLayoutManager
 import androidx.recyclerview.widget.RecyclerView
+import edu.bo.ucb.express_app.Contactos.ContactosAdapter
 import edu.bo.ucb.express_app.Galeria.GaleriaAdapter
 import edu.bo.ucb.express_app.MainActivity
 import edu.bo.ucb.express_app.R
@@ -50,10 +51,10 @@ class Menu : AppCompatActivity() {
         rvButtons.layoutManager = gridLayout
         rvButtons.adapter = MenuAdapter(list,list2,list3, applicationContext)
 
-        // CAMBIAR VISTA DE MENU A GALERIA \\
-        val galeria = findViewById<View>(R.id.btn_galeria) as Button
-        galeria.setOnClickListener {
-            startActivity(Intent(this, GaleriaAdapter::class.java))
+        // CAMBIAR VISTA DE MENU A CONTACTOS \\
+        val contactos = findViewById<View>(R.id.btn_contactos) as Button
+        contactos.setOnClickListener {
+            startActivity(Intent(this, ContactosAdapter::class.java))
         }
     }
 }

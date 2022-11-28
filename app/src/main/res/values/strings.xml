@@ -16,4 +16,14 @@
     <string name="title_galeria">Galeria</string>
     <string name="title_galeria_completa">Foto Completa</string>
     <string name="iv_foto">Foto</string>
+    <!-- VISTA DE CONTACTOS -->
+    <string name="title_contactos">Contactos</string>
+    <string name="title_contactos_lista">Lista de Contactos</string>
+    <string name="new_contact">Crear el contacto</string>
+    <string name="numero">Telefono</string>
+    <string name="email">Correo Electronico</string>
+    <string name="ubicacion">Direccion</string>
+    <string name="add_contact">Añadir Contacto</string>
+    <string name="name_contact">Nombre del contacto</string>
+    <string name="list_contact">Lista de contactos</string>
 </resources>

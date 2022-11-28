@@ -34,6 +34,14 @@
             android:label="@string/title_menu"
             android:exported="false" />
         <activity
+            android:name=".Contactos.ContactosAdapter"
+            android:label="@string/title_contactos"
+            android:exported="false" />
+        <activity
+            android:name=".Contactos.ListaDeContactos"
+            android:label="@string/title_contactos_lista"
+            android:exported="false" />
+        <activity
             android:name=".Galeria.GaleriaAdapter"
             android:label="@string/title_galeria"
             android:exported="false" />

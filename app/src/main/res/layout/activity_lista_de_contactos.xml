@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Contactos.ListaDeContactos" >
+    tools:context=".Contactos.ListaDeContactos">
 
     <TextView
         android:id="@+id/listaContactos"
@@ -17,6 +17,84 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/buscarContacto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="22dp"
+        android:layout_marginBottom="36dp"
+        android:ems="10"
+        android:hint="@string/buscar_contacto"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toTopOf="@+id/imagen1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/listaContactos" />
+
+    <ImageView
+        android:id="@+id/imagen1"
+        android:layout_width="53dp"
+        android:layout_height="77dp"
+        app:layout_constraintBottom_toTopOf="@+id/imagen2"
+        app:layout_constraintEnd_toStartOf="@+id/contacto1Txt"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_contactos"
+        tools:srcCompat="@drawable/perfil_1" />
+
+    <TextView
+        android:id="@+id/contacto1Txt"
+        android:layout_width="186dp"
+        android:layout_height="52dp"
+        android:hint="@string/vladimir_79335515"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/imagen1"
+        app:layout_constraintEnd_toEndOf="@+id/contacto2Txt" />
+
+    <ImageView
+        android:id="@+id/imagen2"
+        android:layout_width="52dp"
+        android:layout_height="71dp"
+        app:layout_constraintBottom_toTopOf="@+id/imagen3"
+        app:layout_constraintEnd_toStartOf="@+id/contacto2Txt"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imagen1"
+        tools:srcCompat="@drawable/perfil_2" />
+
+    <TextView
+        android:id="@+id/contacto2Txt"
+        android:layout_width="185dp"
+        android:layout_height="51dp"
+        android:hint="@string/joseph_64078525"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/imagen2"
+        app:layout_constraintEnd_toEndOf="@+id/contacto3Txt" />
+
+    <ImageView
+        android:id="@+id/imagen3"
+        android:layout_width="51dp"
+        android:layout_height="84dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/contacto3Txt"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imagen2"
+        tools:srcCompat="@drawable/perfil_3" />
+
+    <TextView
+        android:id="@+id/contacto3Txt"
+        android:layout_width="182dp"
+        android:layout_height="45dp"
+        android:hint="@string/rafael_69852546"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/imagen3"
+        app:layout_constraintEnd_toEndOf="@+id/buscarContacto" />
 
     <Button
         android:id="@+id/btn_contactos"

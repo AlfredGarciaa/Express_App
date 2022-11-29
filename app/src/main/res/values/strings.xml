@@ -38,6 +38,10 @@
     <string name="add_contact">Añadir Contacto</string>
     <string name="name_contact">Nombre del contacto</string>
     <string name="list_contact">Lista de contactos</string>
+    <string name="buscar_contacto">Buscar contacto</string>
+    <string name="vladimir_79335515">Vladimir 79335515</string>
+    <string name="joseph_64078525">Joseph 64078525</string>
+    <string name="rafael_69852546">Rafael 69852546</string>
     <!-- VISTA DE HORARIO -->
     <string name="title_horario">Horario</string>
     <string name="action_search">Buscar</string>
@@ -45,4 +49,15 @@
     <string name="Ajustes">Ajustes</string>
     <string name="Administrar_horario">Administrar horario</string>
     <string name="Eliminar">Eliminar</string>
+    <!-- VISTA DE ALARMA -->
+    <string name="title_alarma">Alarma</string>
+    <string name="kardex">Kardex</string>
+    <string name="tus_materias_asignadas">Tus Materias Asignadas</string>
+    <string name="matematicas">Matematicas</string>
+    <string name="fisica">Fisica</string>
+    <string name="quimica">Quimica</string>
+    <string name="historia">Historia</string>
+    <string name="literatura">Literatura</string>
+    <string name="cancelar">Cancelar</string>
+    <string name="recordar">Recordar</string>
 </resources>

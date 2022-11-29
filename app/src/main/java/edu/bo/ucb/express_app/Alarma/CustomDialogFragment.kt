@@ -30,7 +30,7 @@ class CustomDialogFragment: DialogFragment() {
             val radio = rootView.findViewById<RadioButton>(selectedID)
             var ratingResult = radio.text.toString()
 
-            Toast.makeText(context, "You rated: $ratingResult", Toast.LENGTH_LONG).show()
+            Toast.makeText(context, "Recordatorio de: $ratingResult", Toast.LENGTH_LONG).show()
             dismiss()
         }
 

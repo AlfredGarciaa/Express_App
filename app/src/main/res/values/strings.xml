@@ -1,6 +1,5 @@
 <resources>
     <string name="app_name">Express_App</string>
-    <string name="btn_vista">--></string>
     <!-- VISTA DE LOGIN -->
     <string name="title_login">Log In</string>
     <string name="title_register">Sign Up</string>

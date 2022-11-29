@@ -1,14 +1,14 @@
 package edu.bo.ucb.express_app.Menu
 
 import android.content.Intent
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
 import android.widget.Button
+import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.GridLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import edu.bo.ucb.express_app.Contactos.ContactosAdapter
-import edu.bo.ucb.express_app.Galeria.GaleriaAdapter
+import edu.bo.ucb.express_app.Login.LoginAdapter
 import edu.bo.ucb.express_app.MainActivity
 import edu.bo.ucb.express_app.R
 
@@ -50,6 +50,12 @@ class Menu : AppCompatActivity() {
         gridLayout.orientation = GridLayoutManager.VERTICAL
         rvButtons.layoutManager = gridLayout
         rvButtons.adapter = MenuAdapter(list,list2,list3, applicationContext)
+
+        // CAMBIAR VISTA DE MENU A LOGIN \\
+        val login = findViewById<View>(R.id.btn_login) as Button
+        login.setOnClickListener {
+            startActivity(Intent(this, LoginAdapter::class.java))
+        }
 
         // CAMBIAR VISTA DE MENU A CONTACTOS \\
         val contactos = findViewById<View>(R.id.btn_contactos) as Button

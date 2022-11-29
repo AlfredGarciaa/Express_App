@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/ligth_primary_color"
     tools:context=".Camara.CamaraAdapter" >
 
     <LinearLayout
@@ -62,8 +63,8 @@
 
     <com.google.android.material.imageview.ShapeableImageView
         android:id="@+id/shapeableImageView"
-        android:layout_width="289dp"
-        android:layout_height="277dp"
+        android:layout_width="270dp"
+        android:layout_height="194dp"
         android:layout_marginTop="150dp"
         android:scaleType="centerCrop"
         android:src="@drawable/ic_profile"

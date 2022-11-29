@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#4E795A"
+    android:background="@color/btn_color"
     tools:context=".Welcome.WelcomeAdapter" >
 
     <Button
@@ -43,14 +43,14 @@
 
     <ImageView
         android:id="@+id/imageView2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="246dp"
+        android:layout_height="227dp"
         android:layout_marginTop="80dp"
         app:layout_constraintBottom_toTopOf="@+id/Login"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.0"
-        app:srcCompat="@drawable/galeria" />
+        app:srcCompat="@drawable/slogan" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

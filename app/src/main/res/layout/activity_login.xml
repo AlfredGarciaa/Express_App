@@ -9,7 +9,48 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:orientation="vertical">
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_welcome"
+            android:layout_width="68dp"
+            android:layout_height="40dp"
+            android:layout_marginBottom="6dp"
+            android:backgroundTint="@color/white"
+            android:drawableBottom="@drawable/flecha_1_izquierda"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0"
+            app:layout_constraintVertical_chainStyle="packed" />
+
+        <Button
+            android:id="@+id/btn_menu"
+            android:layout_width="68dp"
+            android:layout_height="40dp"
+            android:layout_marginBottom="6dp"
+            android:backgroundTint="@color/white"
+            android:drawableBottom="@drawable/flecha_1_derecha"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0"
+            app:layout_constraintVertical_chainStyle="packed" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
 
         <TextView
             android:layout_width="wrap_content"
@@ -84,24 +125,5 @@
             android:layout_marginBottom="20dp">
         </TextView>
     </LinearLayout>
-
-    <Button
-        android:id="@+id/btn_menu"
-        android:layout_width="68dp"
-        android:layout_height="40dp"
-        android:layout_marginBottom="6dp"
-        android:backgroundTint="@color/white"
-        android:drawableBottom="@drawable/flecha_1_izquierda"
-        android:text="@string/btn_vista"
-        android:textColor="@color/black"
-        android:textSize="20sp"
-        android:textStyle="bold"
-        app:layout_constraintBottom_toTopOf="@+id/imageView"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0"
-        app:layout_constraintVertical_chainStyle="packed" />
 
 </androidx.coordinatorlayout.widget.CoordinatorLayout>

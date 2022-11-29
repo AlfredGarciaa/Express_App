@@ -103,7 +103,6 @@
         android:layout_marginBottom="6dp"
         android:backgroundTint="@color/white"
         android:drawableBottom="@drawable/flecha_2_izquierda"
-        android:text="@string/btn_vista"
         android:textColor="@color/black"
         android:textSize="20sp"
         android:textStyle="bold"

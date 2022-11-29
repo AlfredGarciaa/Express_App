@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="edu.bo.ucb.express_app">
+    package="edu.bo.ucb.express_app" >
+    <uses-feature android:name="android.hardware.camera"
+        android:required="true" />
 
     <application
         android:allowBackup="true"
@@ -53,6 +55,10 @@
             android:label="@string/title_alarma"
             android:exported="false" />
         <activity
+            android:name=".Camara.CamaraAdapter"
+            android:label="@string/title_camara"
+            android:exported="false" />
+        <activity
             android:name=".Galeria.GaleriaAdapter"
             android:label="@string/title_galeria"
             android:exported="false" />
@@ -60,6 +66,10 @@
             android:name=".Galeria.ImagenCompleta"
             android:label="@string/title_galeria_completa"
             android:exported="false" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
     </application>
 
 </manifest>

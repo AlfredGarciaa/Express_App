@@ -10,7 +10,7 @@
     <string name="e_mail">E-mail</string>
     <string name="password">Password</string>
     <string name="confirm_password">Confirm password</string>
-    <string name="sign_in">Sign in</string>
+    <string name="sign_in">Sign Up</string>
     <string name="return_login">Return login</string>
     <string name="log_in">Log in</string>
     <string name="don_t_have_an_account">Don´t have an account?</string>
@@ -60,4 +60,6 @@
     <string name="literatura">Literatura</string>
     <string name="cancelar">Cancelar</string>
     <string name="recordar">Recordar</string>
+    <!-- VISTA DE WELCOME -->
+    <string name="title_welcome">Welcome</string>
 </resources>

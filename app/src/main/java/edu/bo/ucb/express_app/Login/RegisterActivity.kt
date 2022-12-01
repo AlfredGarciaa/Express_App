@@ -1,12 +1,11 @@
 package edu.bo.ucb.express_app.Login
 
 import android.content.Intent
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
 import android.widget.Button
 import android.widget.TextView
-import edu.bo.ucb.express_app.Menu.Menu
+import androidx.appcompat.app.AppCompatActivity
 import edu.bo.ucb.express_app.R
 
 class RegisterActivity : AppCompatActivity() {
@@ -22,6 +21,12 @@ class RegisterActivity : AppCompatActivity() {
         // CAMBIAR VISTA DE SIGN UP A LOGIN \\
         val login = findViewById<View>(R.id.btn_login) as Button
         login.setOnClickListener {
+            startActivity(Intent(this, LoginAdapter::class.java))
+        }
+
+        // CAMBIAR VISTA DE REGISTRARSE A LOGEO -> AL AÑADIR NUEVO USUARIO \\
+        val login_ = findViewById<View>(R.id.btn_login_) as Button
+        login_.setOnClickListener {
             startActivity(Intent(this, LoginAdapter::class.java))
         }
     }

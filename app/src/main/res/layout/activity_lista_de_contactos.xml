@@ -38,12 +38,13 @@
         android:id="@+id/imagen1"
         android:layout_width="53dp"
         android:layout_height="77dp"
+        android:contentDescription="@string/foto1"
         app:layout_constraintBottom_toTopOf="@+id/imagen2"
         app:layout_constraintEnd_toStartOf="@+id/contacto1Txt"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btn_contactos"
-        tools:srcCompat="@drawable/perfil_1" />
+        app:srcCompat="@drawable/perfil_1" />
 
     <TextView
         android:id="@+id/contacto1Txt"
@@ -59,12 +60,13 @@
         android:id="@+id/imagen2"
         android:layout_width="52dp"
         android:layout_height="71dp"
+        android:contentDescription="@string/foto2"
         app:layout_constraintBottom_toTopOf="@+id/imagen3"
         app:layout_constraintEnd_toStartOf="@+id/contacto2Txt"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imagen1"
-        tools:srcCompat="@drawable/perfil_2" />
+        app:srcCompat="@drawable/perfil_2" />
 
     <TextView
         android:id="@+id/contacto2Txt"
@@ -80,12 +82,13 @@
         android:id="@+id/imagen3"
         android:layout_width="51dp"
         android:layout_height="84dp"
+        android:contentDescription="@string/foto3"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/contacto3Txt"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imagen2"
-        tools:srcCompat="@drawable/perfil_3" />
+        app:srcCompat="@drawable/perfil_3" />
 
     <TextView
         android:id="@+id/contacto3Txt"

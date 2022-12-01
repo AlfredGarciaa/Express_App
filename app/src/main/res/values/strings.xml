@@ -40,6 +40,9 @@
     <string name="vladimir_79335515">Vladimir 79335515</string>
     <string name="joseph_64078525">Joseph 64078525</string>
     <string name="rafael_69852546">Rafael 69852546</string>
+    <string name="foto1">foto1</string>
+    <string name="foto2">foto2</string>
+    <string name="foto3">foto3</string>
     <!-- VISTA DE HORARIO -->
     <string name="title_horario">Horario</string>
     <string name="action_search">Buscar</string>

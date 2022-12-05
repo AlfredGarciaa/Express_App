@@ -8,8 +8,6 @@ import android.view.View
 import android.widget.Button
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
-import edu.bo.ucb.express_app.Alarma.AlarmaAdapter
-import edu.bo.ucb.express_app.Contactos.ContactosAdapter
 import edu.bo.ucb.express_app.R
 
 class HorarioAdapter : AppCompatActivity() {
@@ -17,16 +15,10 @@ class HorarioAdapter : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_horario)
 
-        // CAMBIAR VISTA DE HORARIO A CONTACTOS \\
-        val contactos = findViewById<View>(R.id.btn_contactos) as Button
-        contactos.setOnClickListener {
-            startActivity(Intent(this, ContactosAdapter::class.java))
-        }
-
-        // CAMBIAR VISTA DE HORARIO A ALARMA \\
-        val alarma = findViewById<View>(R.id.btn_alarma) as Button
-        alarma.setOnClickListener {
-            startActivity(Intent(this, AlarmaAdapter::class.java))
+        // CAMBIAR VISTA DE HORARIO A MENU \\
+        val menu = findViewById<View>(R.id.btn_menu) as Button
+        menu.setOnClickListener {
+            startActivity(Intent(this, Menu::class.java))
         }
     }
 

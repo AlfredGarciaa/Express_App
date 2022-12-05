@@ -22,6 +22,11 @@ public class GaleriaFotosAdapter extends BaseAdapter {
             R.drawable.historia,
             R.drawable.educacion_fisica,
             R.drawable.filosofia,
+            R.drawable.superacion1,
+            R.drawable.trabajo_equipo1,
+            R.drawable.superacion2,
+            R.drawable.trabajo_equipo2,
+            R.drawable.trabajo_equipo3,
     };
 
     public GaleriaFotosAdapter(Context mContext){

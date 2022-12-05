@@ -9,8 +9,8 @@
 
     <ImageView
         android:id="@+id/rv_option1"
-        android:layout_width="80dp"
-        android:layout_height="80dp"
+        android:layout_width="130dp"
+        android:layout_height="97dp"
         android:layout_marginTop="40dp"
         android:backgroundTint="#009688"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -18,12 +18,12 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.0"
-        app:srcCompat="@drawable/configuraciones" />
+        app:srcCompat="@drawable/cerrar_sesion" />
 
     <TextView
         android:id="@+id/textView1"
-        android:layout_width="120dp"
-        android:layout_height="20dp"
+        android:layout_width="147dp"
+        android:layout_height="34dp"
         android:layout_marginBottom="10dp"
         android:text="@string/textview"
         android:textAlignment="center"

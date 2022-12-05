@@ -5,8 +5,7 @@ import android.os.Bundle
 import android.view.View
 import android.widget.Button
 import androidx.appcompat.app.AppCompatActivity
-import edu.bo.ucb.express_app.Camara.CamaraAdapter
-import edu.bo.ucb.express_app.Horario.HorarioAdapter
+import edu.bo.ucb.express_app.Menu.Menu
 import edu.bo.ucb.express_app.R
 import kotlinx.android.synthetic.main.activity_alarma.*
 
@@ -22,16 +21,10 @@ class AlarmaAdapter : AppCompatActivity() {
             dialog.show(supportFragmentManager, "customDialog")
         }
 
-        // CAMBIAR VISTA DE ALARMA A HORARIO \\
-        val horario = findViewById<View>(R.id.btn_horario) as Button
-        horario.setOnClickListener {
-            startActivity(Intent(this, HorarioAdapter::class.java))
-        }
-
-        // CAMBIAR VISTA DE ALARMA A CAMARA \\
-        val camara = findViewById<View>(R.id.btn_camara) as Button
-        camara.setOnClickListener {
-            startActivity(Intent(this, CamaraAdapter::class.java))
+        // CAMBIAR VISTA DE ALARMA A MENU \\
+        val menu = findViewById<View>(R.id.btn_menu) as Button
+        menu.setOnClickListener {
+            startActivity(Intent(this, Menu::class.java))
         }
     }
 }

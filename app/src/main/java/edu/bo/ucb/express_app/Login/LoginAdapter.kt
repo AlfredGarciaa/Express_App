@@ -26,12 +26,6 @@ class LoginAdapter : AppCompatActivity() {
             startActivity(Intent(this, WelcomeAdapter::class.java))
         }
 
-        // CAMBIAR VISTA DE LOGIN A MENU \\
-        val menu = findViewById<View>(R.id.btn_menu) as Button
-        menu.setOnClickListener {
-            startActivity(Intent(this, Menu::class.java))
-        }
-
         // CAMBIAR VISTA DE LOGIN A MENU -> AL LOGEARSE \\
         val menu_ = findViewById<View>(R.id.btn_menu_) as Button
         menu_.setOnClickListener {

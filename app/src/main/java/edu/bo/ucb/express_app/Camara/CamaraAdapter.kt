@@ -9,8 +9,7 @@ import android.widget.Button
 import androidx.activity.result.ActivityResult
 import androidx.activity.result.contract.ActivityResultContracts
 import androidx.appcompat.app.AppCompatActivity
-import edu.bo.ucb.express_app.Alarma.AlarmaAdapter
-import edu.bo.ucb.express_app.Galeria.GaleriaAdapter
+import edu.bo.ucb.express_app.Menu.Menu
 import edu.bo.ucb.express_app.R
 import edu.bo.ucb.express_app.databinding.ActivityCamaraBinding
 
@@ -25,16 +24,10 @@ class CamaraAdapter : AppCompatActivity() {
         setContentView(binding.root)
         setupListener()
 
-        // CAMBIAR VISTA DE CAMARA A ALARMA \\
-        val alarma = findViewById<View>(R.id.btn_alarma) as Button
-        alarma.setOnClickListener {
-            startActivity(Intent(this, AlarmaAdapter::class.java))
-        }
-
-        // CAMBIAR VISTA DE CAMARA A GALERIA \\
-        val galeria = findViewById<View>(R.id.btn_galeria) as Button
-        galeria.setOnClickListener {
-            startActivity(Intent(this, GaleriaAdapter::class.java))
+        // CAMBIAR VISTA DE CAMARA A MENU \\
+        val menu = findViewById<View>(R.id.btn_menu) as Button
+        menu.setOnClickListener {
+            startActivity(Intent(this, Menu::class.java))
         }
     }
 

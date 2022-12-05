@@ -18,12 +18,6 @@ class RegisterActivity : AppCompatActivity() {
             goToLogin()
         }
 
-        // CAMBIAR VISTA DE SIGN UP A LOGIN \\
-        val login = findViewById<View>(R.id.btn_login) as Button
-        login.setOnClickListener {
-            startActivity(Intent(this, LoginAdapter::class.java))
-        }
-
         // CAMBIAR VISTA DE REGISTRARSE A LOGEO -> AL AÑADIR NUEVO USUARIO \\
         val login_ = findViewById<View>(R.id.btn_login_) as Button
         login_.setOnClickListener {

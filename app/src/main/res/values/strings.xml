@@ -16,6 +16,7 @@
     <string name="login">Login</string>
     <!-- VISTA DE MENU -->
     <string name="title_menu">Menú</string>
+    <string name="cerrar_sesion">Cerrar Sesion</string>
     <string name="Alarmas">Alarmas</string>
     <string name="Cámara">Cámara</string>
     <string name="Configuraciones">Configuraciones</string>

@@ -66,9 +66,9 @@
     <string name="title_welcome">Welcome</string>
     <!-- VISTA DE CAMARA -->
     <string name="title_camara">Camara</string>
+    <string name="tomar_foto">Tomar foto</string>
     <string name="textview">TextView</string>
     <string name="foto_de_perfil">Fotografia de Perfil</string>
     <string name="ponga_su_mejor_foto">Ponga su Mejor Foto</string>
     <string name="foto_identificador">Su foto le ayuda para que sus contactos pueda identificarle rapido</string>
-    <string name="tomar_foto">Tomar foto</string>
 </resources>

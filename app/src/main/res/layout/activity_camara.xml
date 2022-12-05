@@ -46,7 +46,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <com.google.android.material.imageview.ShapeableImageView
+    <ImageView
         android:id="@+id/shapeableImageView"
         android:layout_width="270dp"
         android:layout_height="194dp"
@@ -87,7 +87,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView1" />
 
-    <com.google.android.material.button.MaterialButton
+    <Button
         android:id="@+id/btn_take_photo"
         android:layout_width="485dp"
         android:layout_height="82dp"

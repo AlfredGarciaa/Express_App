@@ -5,16 +5,11 @@
     <string name="title_login">Log In</string>
     <string name="title_register">Sign Up</string>
     <string name="express">Express</string>
-    <string name="register">Register</string>
-    <string name="nombre_y_apellidos">Nombre y apellidos</string>
     <string name="e_mail">E-mail</string>
     <string name="password">Password</string>
-    <string name="confirm_password">Confirm password</string>
-    <string name="sign_in">Sign Up</string>
-    <string name="return_login">Return login</string>
-    <string name="log_in">Log in</string>
-    <string name="don_t_have_an_account">Don´t have an account?</string>
     <string name="login">Login</string>
+    <string name="register">Register</string>
+    <string name="access">Access</string>
     <!-- VISTA DE MENU -->
     <string name="title_menu">Menú</string>
     <string name="cerrar_sesion">Cerrar Sesion</string>
@@ -65,6 +60,7 @@
     <string name="recordar">Recordar</string>
     <!-- VISTA DE WELCOME -->
     <string name="title_welcome">Welcome</string>
+    <string name="description">Aplicacion Mobile desarrollada para un fin en comun: la organizacion y el interes por las actividades para todo tipo de personas y adaptamiento a todas sus actividades posibles.Siendo de gran apoyo por su eficiencia y rapidez desde un dispositivo celular.</string>
     <!-- VISTA DE CAMARA -->
     <string name="title_camara">Camara</string>
     <string name="tomar_foto">Tomar foto</string>

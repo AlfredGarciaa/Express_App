@@ -51,6 +51,5 @@ class Menu : AppCompatActivity() {
         gridLayout.orientation = GridLayoutManager.VERTICAL
         rvButtons.layoutManager = gridLayout
         rvButtons.adapter = MenuAdapter(list,list2,list3, applicationContext)
-
     }
 }

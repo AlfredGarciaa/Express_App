@@ -37,10 +37,6 @@
             android:label="@string/title_login"
             android:exported="false"
             android:launchMode="singleInstance" />
-        <activity android:name=".Login.RegisterActivity"
-            android:label="@string/title_register"
-            android:exported="false"
-            android:launchMode="singleInstance" />
         <activity
             android:name=".Menu.Menu"
             android:label="@string/title_menu"

@@ -26,7 +26,9 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/register"
-            android:textSize="18sp"
+            android:textStyle="bold"
+            android:background="@color/ambar"
+            android:textSize="30dp"
             android:layout_marginTop="8dp"
             android:layout_marginLeft="25dp"
             android:fontFamily="@font/roboto_regular">
@@ -40,6 +42,7 @@
             android:layout_marginLeft="25dp"
             android:layout_marginTop="30dp"
             android:inputType="textPersonName"
+            android:drawableLeft="@drawable/ic_person"
             android:textSize="15sp"
             android:background="@drawable/edittext_custom"
             android:padding="15dp">
@@ -53,6 +56,7 @@
             android:layout_marginLeft="25dp"
             android:layout_marginTop="15dp"
             android:inputType="textEmailAddress"
+            android:drawableLeft="@drawable/ic_email"
             android:textSize="15sp"
             android:background="@drawable/edittext_custom"
             android:padding="15dp">
@@ -66,6 +70,7 @@
             android:layout_marginLeft="25dp"
             android:layout_marginTop="15dp"
             android:inputType="textPassword"
+            android:drawableLeft="@drawable/ic_password"
             android:textSize="15sp"
             android:background="@drawable/edittext_custom"
             android:padding="15dp">
@@ -79,6 +84,7 @@
             android:layout_marginLeft="25dp"
             android:layout_marginTop="15dp"
             android:inputType="textPassword"
+            android:drawableLeft="@drawable/ic_password"
             android:textSize="15sp"
             android:background="@drawable/edittext_custom"
             android:padding="15dp">
@@ -98,6 +104,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/sign_in"
+            android:textSize="30dp"
+            android:textStyle="bold"
             android:layout_marginRight="25dp"
             android:layout_marginLeft="25dp"
             android:background="@drawable/rounded_button"
@@ -111,6 +119,9 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/return_login"
+            android:textStyle="bold"
+            android:textSize="15dp"
+            android:background="@color/ambar"
             android:layout_marginTop="20dp"
             android:layout_marginBottom="20dp">
         </TextView>

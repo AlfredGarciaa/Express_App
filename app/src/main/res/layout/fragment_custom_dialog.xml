@@ -11,7 +11,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/tus_materias_asignadas"
-        android:textSize="26sp"
+        android:textSize="30dp"
+        android:textStyle="bold"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
@@ -67,6 +68,7 @@
         android:layout_marginBottom="25dp"
         android:backgroundTint="#EC407A"
         android:text="@string/cancelar"
+        android:textStyle="bold"
         android:textColor="#ffff"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/ratingRadioGroup" />
@@ -79,6 +81,7 @@
         android:layout_marginBottom="25dp"
         android:backgroundTint="#26C6DA"
         android:text="@string/recordar"
+        android:textStyle="bold"
         android:textColor="#fff"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/ratingRadioGroup" />

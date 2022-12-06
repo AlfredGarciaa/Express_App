@@ -15,4 +15,6 @@
     <color name="color_gray_light">#e0e0e0</color>
     <color name="color_gray">#bdbdbd</color>
     <color name="btn_color">#00695c</color>
+    <color name="ambar">#FFBE33</color>
+    <color name="red">#FF3933</color>
 </resources>

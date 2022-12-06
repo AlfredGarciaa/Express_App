@@ -9,7 +9,7 @@
       "client_info": {
         "mobilesdk_app_id": "1:548733900788:android:42674e8f65eb5de69c4ba1",
         "android_client_info": {
-          "package_name": "edu.bo.ucb.express_app.Welcome"
+          "package_name": "edu.bo.ucb.express_app"
         }
       },
       "oauth_client": [

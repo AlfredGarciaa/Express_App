@@ -6,7 +6,6 @@ import android.view.View
 import android.widget.Button
 import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
-import com.google.firebase.analytics.FirebaseAnalytics
 import edu.bo.ucb.express_app.Menu.Menu
 import edu.bo.ucb.express_app.R
 import edu.bo.ucb.express_app.Welcome.WelcomeAdapter
@@ -15,9 +14,6 @@ class LoginAdapter : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_login)
-
-        // Analytics Event
-        val analytics : FirebaseAnalytics = FirebaseAnalytics.getIntance()
 
         val tvGoToRegister = findViewById<TextView>(R.id.tv_go_to_register)
         tvGoToRegister.setOnClickListener{

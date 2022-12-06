@@ -16,8 +16,6 @@ class WelcomeAdapter : AppCompatActivity() {
         get() = findViewById(R.id.signUp)
     override fun onCreate(savedInstanceState: Bundle?) {
 
-        setTheme(R.style.Theme.Express_App)
-
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_welcome)
 

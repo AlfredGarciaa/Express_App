@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "548733900788",
+    "project_id": "express-app-7503c",
+    "storage_bucket": "express-app-7503c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:548733900788:android:42674e8f65eb5de69c4ba1",
+        "android_client_info": {
+          "package_name": "edu.bo.ucb.express_app.Welcome"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "548733900788-59v3hpvga3htn8dv3a0554ltrv1lem0i.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDvJq7Tb80e4s9tYsuYfT05WqnczEZngns"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "548733900788-59v3hpvga3htn8dv3a0554ltrv1lem0i.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -21,7 +21,8 @@
         <activity
             android:name=".Welcome.WelcomeAdapter"
             android:exported="true"
-            android:launchMode="singleInstance" >
+            android:launchMode="singleInstance"
+            android:theme="@style/SplashTheme" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

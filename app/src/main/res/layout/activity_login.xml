@@ -87,7 +87,7 @@
             android:layout_marginTop="10dp"
             android:background="@color/purple_200"
             app:shapeAppearanceOverlay="@style/ShapeAppearanceOverlay.App.CornerSize50Percent"
-            app:srcCompat="@drawable/demo" />
+            app:srcCompat="@drawable/gmail" />
 
         <EditText
             android:id="@+id/emailEditText"

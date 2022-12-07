@@ -10,8 +10,8 @@ import edu.bo.ucb.express_app.Camara.CamaraAdapter
 import edu.bo.ucb.express_app.Contactos.ContactosAdapter
 import edu.bo.ucb.express_app.Galeria.GaleriaAdapter
 import edu.bo.ucb.express_app.Horario.HorarioAdapter
+import edu.bo.ucb.express_app.Login.LoginAdapter
 import edu.bo.ucb.express_app.R
-import edu.bo.ucb.express_app.Welcome.WelcomeAdapter
 
 class Menu : AppCompatActivity() {
     lateinit var rvButtons : RecyclerView
@@ -39,7 +39,7 @@ class Menu : AppCompatActivity() {
         )
 
         val list3= arrayListOf<Intent>(
-            Intent(this, WelcomeAdapter::class.java) ,
+            Intent(this, LoginAdapter::class.java),
             Intent(this, AlarmaAdapter::class.java),
             Intent(this, CamaraAdapter::class.java),
             Intent(this, ContactosAdapter::class.java),

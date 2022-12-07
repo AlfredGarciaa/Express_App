@@ -51,14 +51,6 @@ class LoginAdapter : AppCompatActivity() {
         welcome.setOnClickListener {
             startActivity(Intent(this, WelcomeAdapter::class.java))
         }
-
-        /*
-        // CAMBIAR VISTA DE LOGIN A MENU -> AL LOGEARSE \\
-        val menu = findViewById<View>(R.id.btn_menu) as Button
-        menu.setOnClickListener {
-            startActivity(Intent(this, Menu::class.java))
-        }
-        */
     }
 
     private fun setup() {
@@ -79,10 +71,7 @@ class LoginAdapter : AppCompatActivity() {
                 FirebaseAuth.getInstance().signInWithEmailAndPassword(
                     emailEditText.text.toString(), passwordEditText.text.toString()).addOnCompleteListener {
                     if (it.isSuccessful) {
-                        val menu = findViewById<View>(R.id.btn_menu) as Button
-                        menu.setOnClickListener {
-                            startActivity(Intent(this, Menu::class.java))
-                        }
+                        showMenu(it.result?.user?.email ?: "")
                     } else {
                         showAlert()
                     }

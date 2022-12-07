@@ -39,7 +39,7 @@ class Menu : AppCompatActivity() {
         )
 
         val list3= arrayListOf<Intent>(
-            Intent(this, LoginAdapter::class.java) ,
+            Intent(this, LoginAdapter::class.java),
             Intent(this, AlarmaAdapter::class.java),
             Intent(this, CamaraAdapter::class.java),
             Intent(this, ContactosAdapter::class.java),

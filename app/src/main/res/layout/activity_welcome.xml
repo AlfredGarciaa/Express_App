@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/accent_color"
-    tools:context=".Welcome.WelcomeAdapter" >
+    tools:context=".UserInterface.Welcome.WelcomeAdapter" >
 
     <Button
         android:id="@+id/btn_login"

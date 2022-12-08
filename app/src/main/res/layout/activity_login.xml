@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/accent_color"
-    tools:context=".Login.LoginAdapter">
+    tools:context=".UserInterface.Login.LoginAdapter">
 
     <LinearLayout
         android:layout_width="match_parent"

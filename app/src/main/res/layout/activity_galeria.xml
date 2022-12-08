@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/ligth_primary_color"
-    tools:context=".Galeria.GaleriaAdapter" >
+    tools:context=".UserInterface.Galeria.GaleriaAdapter" >
 
     <LinearLayout
         android:id="@+id/linearLayout"

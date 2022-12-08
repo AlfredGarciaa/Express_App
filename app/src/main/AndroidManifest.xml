@@ -10,6 +10,7 @@
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
     <application
         android:allowBackup="true"
+        android:name=".RickAndMortyApplication"
         android:dataExtractionRules="@xml/data_extraction_rules"
         android:fullBackupContent="@xml/backup_rules"
         android:roundIcon="@mipmap/ic_express_app_round"
@@ -31,43 +32,43 @@
         </activity>
 
         <activity
-            android:name=".Welcome.WelcomeAdapter"
+            android:name=".UserInterface.Welcome.WelcomeAdapter"
             android:label="@string/title_welcome"
             android:exported="false"
             android:launchMode="singleInstance"/>
-        <activity android:name=".Login.LoginAdapter"
+        <activity android:name="edu.bo.ucb.express_app.UserInterface.Login.LoginAdapter"
             android:label="@string/title_login"
             android:exported="false"
             android:launchMode="singleInstance" />
         <activity
-            android:name=".Menu.Menu"
+            android:name="edu.bo.ucb.express_app.UserInterface.Menu.Menu"
             android:label="@string/title_menu"
             android:exported="false" />
         <activity
-            android:name=".Contactos.ContactosAdapter"
+            android:name="edu.bo.ucb.express_app.UserInterface.Contactos.ContactosAdapter"
             android:label="@string/title_contactos"
             android:exported="false" />
         <activity
-            android:name=".Contactos.ListaDeContactos"
+            android:name="edu.bo.ucb.express_app.UserInterface.Contactos.ListaDeContactos"
             android:label="@string/title_contactos_lista"
             android:exported="false" />
         <activity
-            android:name=".Horario.HorarioAdapter"
+            android:name="edu.bo.ucb.express_app.UserInterface.Horario.HorarioAdapter"
             android:label="@string/title_horario"
             android:exported="false" />
-        <activity android:name=".Alarma.AlarmaAdapter"
+        <activity android:name="edu.bo.ucb.express_app.UserInterface.Alarma.AlarmaAdapter"
             android:label="@string/title_alarma"
             android:exported="false" />
         <activity
-            android:name=".Camara.CamaraAdapter"
+            android:name="edu.bo.ucb.express_app.UserInterface.Camara.CamaraAdapter"
             android:label="@string/title_camara"
             android:exported="false" />
         <activity
-            android:name=".Galeria.GaleriaAdapter"
+            android:name=".UserInterface.Galeria.GaleriaAdapter"
             android:label="@string/title_galeria"
             android:exported="false" />
         <activity
-            android:name=".Galeria.ImagenCompleta"
+            android:name=".UserInterface.Galeria.ImagenCompleta"
             android:label="@string/title_galeria_completa"
             android:exported="false" />
 

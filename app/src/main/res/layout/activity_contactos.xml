@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:layout_marginTop="5dp"
     android:background="@color/ligth_primary_color"
-    tools:context=".Contactos.ContactosAdapter" >
+    tools:context=".UserInterface.Contactos.ContactosAdapter" >
 
     <LinearLayout
         android:layout_width="match_parent"

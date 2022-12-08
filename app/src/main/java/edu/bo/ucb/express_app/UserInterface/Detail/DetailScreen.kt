@@ -1,5 +1,5 @@
 package edu.bo.ucb.express_app.UserInterface.Detail
-
+/*
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.*
 import androidx.compose.material.Icon
@@ -107,3 +107,4 @@ private fun Up(upPress: () -> Unit) {
         )
     }
 }
+*/

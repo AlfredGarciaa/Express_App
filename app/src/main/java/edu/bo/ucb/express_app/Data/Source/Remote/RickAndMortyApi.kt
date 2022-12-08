@@ -1,5 +1,5 @@
 package edu.bo.ucb.express_app.Data.Source.Remote
-
+/*
 import edu.bo.ucb.express_app.Data.Source.Remote.Dto.CharacterDto
 import edu.bo.ucb.express_app.Data.Source.Remote.Dto.CharactersDto
 import retrofit2.http.GET
@@ -18,3 +18,4 @@ interface RickAndMortyApi {
         @Path("id") id: Int
     ): CharacterDto
 }
+*/

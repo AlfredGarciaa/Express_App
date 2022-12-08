@@ -1,5 +1,5 @@
 package edu.bo.ucb.express_app.Data.Source.Remote.Dto
-
+/*
 data class Result(
     val created: String,
     val episode: List<String>,
@@ -14,3 +14,4 @@ data class Result(
     val type: String,
     val url: String
 )
+*/

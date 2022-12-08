@@ -1,14 +1,14 @@
 package edu.bo.ucb.express_app.UserInterface.Detail
-
-import androidx.compose.runtime.mutableStateOf
+/*
 import androidx.compose.runtime.getValue
+import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.setValue
 import androidx.lifecycle.SavedStateHandle
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
+import dagger.hilt.android.lifecycle.HiltViewModel
 import edu.bo.ucb.express_app.Data.Result
 import edu.bo.ucb.express_app.Domain.UseCase.GetCharacterUseCase
-import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.launch
 import javax.inject.Inject
 
@@ -52,3 +52,4 @@ class DetailViewModel @Inject constructor(
         }
     }
 }
+*/

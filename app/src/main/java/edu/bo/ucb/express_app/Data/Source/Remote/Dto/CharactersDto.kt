@@ -1,5 +1,5 @@
 package edu.bo.ucb.express_app.Data.Source.Remote.Dto
-
+/*
 import edu.bo.ucb.express_app.Domain.Model.Characters
 
 data class CharactersDto(
@@ -18,3 +18,4 @@ fun CharactersDto.toListCharacters(): List<Characters> {
     }
     return resultEntries
 }
+*/

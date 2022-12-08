@@ -1,5 +1,5 @@
 package edu.bo.ucb.express_app.UserInterface.Home
-
+/*
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.setValue
@@ -69,3 +69,4 @@ class HomeViewModel @Inject constructor(
         data class ShowSnackBar(val message: String): UIEvent()
     }
 }
+*/

@@ -1,5 +1,5 @@
 package edu.bo.ucb.express_app.Data.Source.Remote.Dto
-
+/*
 import edu.bo.ucb.express_app.Domain.Model.Character
 
 data class CharacterDto(
@@ -29,3 +29,4 @@ fun CharacterDto.toCharacter(): Character {
         image = image
     )
 }
+*/

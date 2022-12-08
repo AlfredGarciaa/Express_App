@@ -1,5 +1,5 @@
 package edu.bo.ucb.express_app.UserInterface
-
+/*
 import androidx.navigation.NavController
 import androidx.navigation.NavGraph.Companion.findStartDestination
 
@@ -32,3 +32,4 @@ class RickAndMortyActions(navController: NavController) {
         }
     }
 }
+*/

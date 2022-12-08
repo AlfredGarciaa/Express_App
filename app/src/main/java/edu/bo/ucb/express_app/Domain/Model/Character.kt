@@ -1,5 +1,5 @@
 package edu.bo.ucb.express_app.Domain.Model
-
+/*
 import edu.bo.ucb.express_app.Data.Source.Remote.Dto.Location
 import edu.bo.ucb.express_app.Data.Source.Remote.Dto.Origin
 
@@ -13,3 +13,4 @@ data class Character(
     val location: Location,
     val image: String
 )
+*/

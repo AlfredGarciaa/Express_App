@@ -1,5 +1,5 @@
 package edu.bo.ucb.express_app.UserInterface.Detail.Components
-
+/*
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.aspectRatio
@@ -46,3 +46,4 @@ private fun ImageContainer(
         content()
     }
 }
+*/

@@ -1,5 +1,5 @@
 package edu.bo.ucb.express_app.UserInterface.Detail.Components
-
+/*
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.outlined.ArrowBack
 import androidx.compose.material.icons.outlined.ArrowForward
@@ -19,3 +19,4 @@ fun mirroringIcon(ltrIcon: ImageVector, rtlIcon: ImageVector): ImageVector =
 fun mirroringBackIcon() = mirroringIcon(
     ltrIcon = Icons.Outlined.ArrowBack, rtlIcon = Icons.Outlined.ArrowForward
 )
+*/

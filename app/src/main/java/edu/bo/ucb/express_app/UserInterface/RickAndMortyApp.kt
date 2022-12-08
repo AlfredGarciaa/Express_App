@@ -1,5 +1,5 @@
 package edu.bo.ucb.express_app.UserInterface
-
+/*
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.remember
 import androidx.navigation.compose.rememberNavController
@@ -20,3 +20,4 @@ fun RickAndMortyApp() {
         )
     }
 }
+*/

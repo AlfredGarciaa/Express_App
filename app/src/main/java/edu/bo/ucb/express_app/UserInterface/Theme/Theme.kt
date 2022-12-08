@@ -1,5 +1,5 @@
 package edu.bo.ucb.express_app.UserInterface.Theme
-
+/*
 import androidx.compose.foundation.isSystemInDarkTheme
 import androidx.compose.material.MaterialTheme
 import androidx.compose.material.darkColors
@@ -42,3 +42,4 @@ fun RickAndMortyTheme(darkTheme: Boolean = isSystemInDarkTheme(), content: @Comp
         content = content
     )
 }
+*/

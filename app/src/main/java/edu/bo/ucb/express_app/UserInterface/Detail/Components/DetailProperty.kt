@@ -1,5 +1,5 @@
 package edu.bo.ucb.express_app.UserInterface.Detail.Components
-
+/*
 import androidx.compose.foundation.layout.*
 import androidx.compose.material.Card
 import androidx.compose.material.Icon
@@ -43,3 +43,4 @@ fun DetailProperty(
         }
     }
 }
+*/

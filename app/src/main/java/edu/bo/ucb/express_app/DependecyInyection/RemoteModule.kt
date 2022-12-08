@@ -1,5 +1,5 @@
 package edu.bo.ucb.express_app.DependecyInyection
-
+/*
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn
@@ -24,3 +24,4 @@ object RemoteModule {
             .create(RickAndMortyApi::class.java)
     }
 }
+*/

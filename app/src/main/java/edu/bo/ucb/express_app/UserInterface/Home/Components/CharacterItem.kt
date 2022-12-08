@@ -1,5 +1,5 @@
 package edu.bo.ucb.express_app.UserInterface.Home.Components
-
+/*
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.*
@@ -82,3 +82,4 @@ fun CharacterImageContainer(
         content()
     }
 }
+*/

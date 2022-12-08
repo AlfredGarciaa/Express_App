@@ -11,7 +11,7 @@ import edu.bo.ucb.express_app.UserInterface.Camara.CamaraAdapter
 import edu.bo.ucb.express_app.UserInterface.Contactos.ContactosAdapter
 import edu.bo.ucb.express_app.UserInterface.Galeria.GaleriaAdapter
 import edu.bo.ucb.express_app.UserInterface.Horario.HorarioAdapter
-import edu.bo.ucb.express_app.UserInterface.Retrofit
+import edu.bo.ucb.express_app.UserInterface.Login.LoginAdapter
 
 class Menu : AppCompatActivity() {
     lateinit var rvButtons : RecyclerView
@@ -21,7 +21,7 @@ class Menu : AppCompatActivity() {
 
         rvButtons = findViewById(R.id.rv_buttons)
         val list = arrayListOf<Int>(
-            R.drawable.retrofit,
+            R.drawable.cerrar_sesion,
             R.drawable.alarmas,
             R.drawable.camara,
             R.drawable.contactos,
@@ -30,7 +30,7 @@ class Menu : AppCompatActivity() {
         )
 
         val list2= arrayListOf<String>(
-            getString(R.string.Retrofit),
+            getString(R.string.cerrar_sesion),
             getString(R.string.Alarmas),
             getString(R.string.Cámara),
             getString(R.string.Contactos),
@@ -39,7 +39,7 @@ class Menu : AppCompatActivity() {
         )
 
         val list3= arrayListOf<Intent>(
-            Intent(this, Retrofit::class.java),
+            Intent(this, LoginAdapter::class.java),
             Intent(this, AlarmaAdapter::class.java),
             Intent(this, CamaraAdapter::class.java),
             Intent(this, ContactosAdapter::class.java),

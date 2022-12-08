@@ -1,5 +1,5 @@
 package edu.bo.ucb.express_app.UserInterface.Home
-
+/*
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.lazy.LazyColumn
@@ -160,3 +160,4 @@ private fun FullScreenLoading() {
         CircularProgressIndicator()
     }
 }
+*/

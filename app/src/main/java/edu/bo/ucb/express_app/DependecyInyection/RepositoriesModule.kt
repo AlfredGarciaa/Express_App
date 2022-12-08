@@ -1,5 +1,5 @@
 package edu.bo.ucb.express_app.DependecyInyection
-
+/*
 import dagger.Binds
 import dagger.Module
 import dagger.hilt.InstallIn
@@ -14,3 +14,4 @@ abstract class RepositoriesModule {
     @Binds
     abstract fun bindCharacterRepository(impl: CharacterRepositoryImplementation): CharacterRepository
 }
+*/

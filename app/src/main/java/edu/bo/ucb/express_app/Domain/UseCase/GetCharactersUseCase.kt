@@ -1,6 +1,5 @@
 package edu.bo.ucb.express_app.Domain.UseCase
-
-import edu.bo.ucb.express_app.Data.Result
+/*
 import edu.bo.ucb.express_app.Domain.Model.Characters
 import edu.bo.ucb.express_app.Domain.Repositories.CharacterRepository
 import kotlinx.coroutines.flow.Flow
@@ -13,3 +12,4 @@ class GetCharactersUseCase @Inject constructor(
             return repository.getCharacters(page)
         }
     }
+*/

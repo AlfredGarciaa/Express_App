@@ -32,10 +32,13 @@
         </activity>
 
         <activity
+            android:name=".UserInterface.Retrofit"
+            android:exported="false" />
+        <activity
             android:name=".UserInterface.Welcome.WelcomeAdapter"
             android:label="@string/title_welcome"
             android:exported="false"
-            android:launchMode="singleInstance"/>
+            android:launchMode="singleInstance" />
         <activity android:name="edu.bo.ucb.express_app.UserInterface.Login.LoginAdapter"
             android:label="@string/title_login"
             android:exported="false"

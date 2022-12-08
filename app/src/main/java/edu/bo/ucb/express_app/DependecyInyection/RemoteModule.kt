@@ -1,6 +1,6 @@
 package edu.bo.ucb.express_app.DependecyInyection
 
-import com.google.android.datatransport.runtime.dagger.Module
+import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn
 import dagger.hilt.components.SingletonComponent

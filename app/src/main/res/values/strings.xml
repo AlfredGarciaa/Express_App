@@ -69,6 +69,7 @@
     <string name="ponga_su_mejor_foto">Ponga su Mejor Foto</string>
     <string name="foto_identificador">Su foto le ayuda para que sus contactos pueda identificarle rapido</string>
     <!--  HOMESCREEN  -->
+    <string name="Retrofit">Rick and Morty App</string>
     <string name="home_title">Characters</string>
     <string name="previous_button">Previous</string>
     <string name="next_button">Next</string>

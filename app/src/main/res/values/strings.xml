@@ -1,6 +1,8 @@
 <resources>
     <string name="app_name">Express App</string>
     <string name="Usuario_Defecto">Default User</string>
+    <!-- VISTA DE POKEMON -->
+    <string name="title_pokemon">Pokédex</string>
     <!-- VISTA DE LOGIN -->
     <string name="title_login">Log In</string>
     <string name="title_register">Sign Up</string>

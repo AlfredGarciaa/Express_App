@@ -17,4 +17,7 @@
     <color name="btn_color">#00695c</color>
     <color name="ambar">#FFBE33</color>
     <color name="red">#FF3933</color>
+    <color name="colorPrimary2">#5DC784</color>
+    <color name="colorPrimaryDark">#5DC784</color>
+    <color name="colorAccent">#FDB449</color>
 </resources>

@@ -31,6 +31,10 @@
         </activity>
 
         <activity
+            android:name=".UserInterface.Pokemon.PokemonActivity"
+            android:label="@string/title_pokemon"
+            android:exported="false" />
+        <activity
             android:name=".UserInterface.Welcome.WelcomeAdapter"
             android:label="@string/title_welcome"
             android:exported="false"

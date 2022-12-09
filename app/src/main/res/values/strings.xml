@@ -7,6 +7,7 @@
     <string name="title_agradecimiento">Carta</string>
     <string name="agradecimientoText">Agradecimientos Especiales a:</string>
     <string name="email_docente">calyr.software@gmail.com</string>
+    <string name="texto">Le agradecemos por compartir sus conocimientos con nosotros, por estar siempre en lo cierto en su educación y por apoyarnos y ayudarnos siempre. Gracias de nuevo de parte del equipo Express App</string>
     <!-- VISTA DE LOGIN -->
     <string name="title_login">Log In</string>
     <string name="title_register">Sign Up</string>

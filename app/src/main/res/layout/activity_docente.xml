@@ -38,11 +38,9 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="60dp"
         android:fontFamily="@font/greatvibes_regular"
-        android:textSize="30dp"
+        android:textSize="35dp"
         android:drawableLeft="@mipmap/ic_flores"
         android:drawableRight="@mipmap/ic_flores"
-        android:paddingLeft="20dp"
-        android:paddingRight="40dp"
         android:textColor="@android:color/black"
         android:text="@string/agradecimientoText"
         android:background="@color/purple_200"
@@ -80,17 +78,18 @@
         app:layout_constraintTop_toBottomOf="@+id/docenteView" />
 
     <RelativeLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent" >
+        android:layout_width="300dp"
+        android:layout_height="895dp"
+        tools:ignore="MissingConstraints">
 
         <com.airbnb.lottie.LottieAnimationView
             android:id="@+id/animationView"
-            android:layout_width="match_parent"
-            android:layout_height="468dp"
+            android:layout_width="300dp"
+            android:layout_height="700dp"
+            android:layout_marginTop="600dp"
             app:lottie_autoPlay="true"
             app:lottie_loop="true"
             app:lottie_rawRes="@raw/confeti" />
     </RelativeLayout>
-
 
 </androidx.constraintlayout.widget.ConstraintLayout>

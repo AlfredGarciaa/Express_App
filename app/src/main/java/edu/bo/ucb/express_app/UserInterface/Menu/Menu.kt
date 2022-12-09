@@ -23,35 +23,35 @@ class Menu : AppCompatActivity() {
 
         rvButtons = findViewById(R.id.rv_buttons)
         val list = arrayListOf<Int>(
-            R.drawable.pokedex,
+            R.drawable.cerrar_sesion,
             R.drawable.alarmas,
             R.drawable.camara,
             R.drawable.contactos,
             R.drawable.galeria,
             R.drawable.horario,
-            R.drawable.cerrar_sesion,
-            R.drawable.docente_titular,
+            R.drawable.pokedex,
+            R.drawable.correo,
         )
 
         val list2= arrayListOf<String>(
-            getString(R.string.title_pokemon),
+            getString(R.string.cerrar_sesion),
             getString(R.string.Alarmas),
             getString(R.string.Cámara),
             getString(R.string.Contactos),
             getString(R.string.Galeria),
             getString(R.string.Horario),
-            getString(R.string.cerrar_sesion),
+            getString(R.string.title_pokemon),
             getString(R.string.title_agradecimiento),
         )
 
         val list3= arrayListOf<Intent>(
-            Intent(this, PokemonActivity::class.java),
+            Intent(this, LoginAdapter::class.java),
             Intent(this, AlarmaAdapter::class.java),
             Intent(this, CamaraAdapter::class.java),
             Intent(this, ContactosAdapter::class.java),
             Intent(this, GaleriaAdapter::class.java),
             Intent(this, HorarioAdapter::class.java),
-            Intent(this, LoginAdapter::class.java),
+            Intent(this, PokemonActivity::class.java),
             Intent(this, Docente::class.java),
         )
 

@@ -4,7 +4,7 @@
     <!-- VISTA DE POKEMON -->
     <string name="title_pokemon">Pokédex</string>
     <!-- VISTA DE AGRADECIMIENTO -->
-    <string name="title_agradecimiento">Agradecimientos</string>
+    <string name="title_agradecimiento">Carta</string>
     <string name="agradecimientoText">Agradecimientos Especiales a:</string>
     <string name="email_docente">calyr.software@gmail.com</string>
     <!-- VISTA DE LOGIN -->

@@ -4,6 +4,8 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/UCB - INGENIERIA EN SISTEMAS/Semestre 2- 2022/Programacion de Dispositivos Mobiles/Express_App/app/src/main/res/drawable-v24/edittext_custom.xml" value="0.1515" />
+        <entry key="..\:/UCB - INGENIERIA EN SISTEMAS/Semestre 2- 2022/Programacion de Dispositivos Mobiles/Express_App/app/src/main/res/drawable/btn_color.xml" value="0.1" />
+        <entry key="..\:/UCB - INGENIERIA EN SISTEMAS/Semestre 2- 2022/Programacion de Dispositivos Mobiles/Express_App/app/src/main/res/drawable/btn_color2.xml" value="0.11" />
         <entry key="..\:/UCB - INGENIERIA EN SISTEMAS/Semestre 2- 2022/Programacion de Dispositivos Mobiles/Express_App/app/src/main/res/drawable/hi.xml" value="0.1" />
         <entry key="..\:/UCB - INGENIERIA EN SISTEMAS/Semestre 2- 2022/Programacion de Dispositivos Mobiles/Express_App/app/src/main/res/drawable/ic_login.xml" value="0.1" />
         <entry key="..\:/UCB - INGENIERIA EN SISTEMAS/Semestre 2- 2022/Programacion de Dispositivos Mobiles/Express_App/app/src/main/res/drawable/ic_profile.xml" value="0.1" />
@@ -17,17 +19,17 @@
         <entry key="..\:/UCB - INGENIERIA EN SISTEMAS/Semestre 2- 2022/Programacion de Dispositivos Mobiles/Express_App/app/src/main/res/layout/activity_alarma.xml" value="0.1" />
         <entry key="..\:/UCB - INGENIERIA EN SISTEMAS/Semestre 2- 2022/Programacion de Dispositivos Mobiles/Express_App/app/src/main/res/layout/activity_camara.xml" value="0.1" />
         <entry key="..\:/UCB - INGENIERIA EN SISTEMAS/Semestre 2- 2022/Programacion de Dispositivos Mobiles/Express_App/app/src/main/res/layout/activity_contactos.xml" value="0.1" />
-        <entry key="..\:/UCB - INGENIERIA EN SISTEMAS/Semestre 2- 2022/Programacion de Dispositivos Mobiles/Express_App/app/src/main/res/layout/activity_docente.xml" value="0.264" />
+        <entry key="..\:/UCB - INGENIERIA EN SISTEMAS/Semestre 2- 2022/Programacion de Dispositivos Mobiles/Express_App/app/src/main/res/layout/activity_docente.xml" value="0.2" />
         <entry key="..\:/UCB - INGENIERIA EN SISTEMAS/Semestre 2- 2022/Programacion de Dispositivos Mobiles/Express_App/app/src/main/res/layout/activity_galeria.xml" value="0.1" />
         <entry key="..\:/UCB - INGENIERIA EN SISTEMAS/Semestre 2- 2022/Programacion de Dispositivos Mobiles/Express_App/app/src/main/res/layout/activity_horario.xml" value="0.2" />
         <entry key="..\:/UCB - INGENIERIA EN SISTEMAS/Semestre 2- 2022/Programacion de Dispositivos Mobiles/Express_App/app/src/main/res/layout/activity_imagen_completa.xml" value="0.2" />
         <entry key="..\:/UCB - INGENIERIA EN SISTEMAS/Semestre 2- 2022/Programacion de Dispositivos Mobiles/Express_App/app/src/main/res/layout/activity_lista_de_contactos.xml" value="0.2" />
-        <entry key="..\:/UCB - INGENIERIA EN SISTEMAS/Semestre 2- 2022/Programacion de Dispositivos Mobiles/Express_App/app/src/main/res/layout/activity_login.xml" value="0.20820863616930313" />
+        <entry key="..\:/UCB - INGENIERIA EN SISTEMAS/Semestre 2- 2022/Programacion de Dispositivos Mobiles/Express_App/app/src/main/res/layout/activity_login.xml" value="0.1" />
         <entry key="..\:/UCB - INGENIERIA EN SISTEMAS/Semestre 2- 2022/Programacion de Dispositivos Mobiles/Express_App/app/src/main/res/layout/activity_main.xml" value="0.2" />
         <entry key="..\:/UCB - INGENIERIA EN SISTEMAS/Semestre 2- 2022/Programacion de Dispositivos Mobiles/Express_App/app/src/main/res/layout/activity_menu.xml" value="0.2" />
-        <entry key="..\:/UCB - INGENIERIA EN SISTEMAS/Semestre 2- 2022/Programacion de Dispositivos Mobiles/Express_App/app/src/main/res/layout/activity_pokemon.xml" value="0.1" />
+        <entry key="..\:/UCB - INGENIERIA EN SISTEMAS/Semestre 2- 2022/Programacion de Dispositivos Mobiles/Express_App/app/src/main/res/layout/activity_pokemon.xml" value="0.2" />
         <entry key="..\:/UCB - INGENIERIA EN SISTEMAS/Semestre 2- 2022/Programacion de Dispositivos Mobiles/Express_App/app/src/main/res/layout/activity_register.xml" value="0.2" />
-        <entry key="..\:/UCB - INGENIERIA EN SISTEMAS/Semestre 2- 2022/Programacion de Dispositivos Mobiles/Express_App/app/src/main/res/layout/activity_welcome.xml" value="0.2" />
+        <entry key="..\:/UCB - INGENIERIA EN SISTEMAS/Semestre 2- 2022/Programacion de Dispositivos Mobiles/Express_App/app/src/main/res/layout/activity_welcome.xml" value="0.1" />
         <entry key="..\:/UCB - INGENIERIA EN SISTEMAS/Semestre 2- 2022/Programacion de Dispositivos Mobiles/Express_App/app/src/main/res/layout/fragment_custom_dialog.xml" value="0.2" />
         <entry key="..\:/UCB - INGENIERIA EN SISTEMAS/Semestre 2- 2022/Programacion de Dispositivos Mobiles/Express_App/app/src/main/res/layout/item_pokemon.xml" value="0.16" />
         <entry key="..\:/UCB - INGENIERIA EN SISTEMAS/Semestre 2- 2022/Programacion de Dispositivos Mobiles/Express_App/app/src/main/res/layout/menu_row.xml" value="0.2" />

@@ -38,7 +38,9 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="60dp"
         android:fontFamily="@font/greatvibes_regular"
-        android:textSize="35dp"
+        android:textSize="45dp"
+        android:paddingRight="60dp"
+        android:paddingLeft="60dp"
         android:drawableLeft="@mipmap/ic_flores"
         android:drawableRight="@mipmap/ic_flores"
         android:textColor="@android:color/black"
@@ -72,7 +74,7 @@
         android:textAlignment="center"
         android:background="@color/white"
         android:textColor="@color/gris"
-        android:textSize="18dp"
+        android:textSize="20dp"
         app:layout_constraintEnd_toEndOf="@+id/docenteView"
         app:layout_constraintStart_toStartOf="@+id/docenteView"
         app:layout_constraintTop_toBottomOf="@+id/docenteView" />
@@ -81,15 +83,16 @@
         android:id="@+id/textViewTexto"
         android:layout_width="292dp"
         android:layout_height="230dp"
-        android:fontFamily="@font/roboto_medium"
+        android:layout_marginTop="40dp"
+        android:fontFamily="@font/comments"
         android:text="@string/texto"
         android:textAlignment="center"
         android:textColor="@color/teal_700"
-        android:layout_marginTop="40dp"
-        android:textSize="18dp"
+        android:textSize="22dp"
         android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/textViewCorreo"
         app:layout_constraintTop_toBottomOf="@+id/textViewCorreo"
-        tools:layout_editor_absoluteX="116dp" />
+        tools:ignore="MissingConstraints" />
 
     <RelativeLayout
         android:layout_width="300dp"
@@ -100,7 +103,7 @@
             android:id="@+id/animationView"
             android:layout_width="300dp"
             android:layout_height="700dp"
-            android:layout_marginTop="600dp"
+            android:layout_marginTop="650dp"
             app:lottie_autoPlay="true"
             app:lottie_loop="true"
             app:lottie_rawRes="@raw/confeti" />

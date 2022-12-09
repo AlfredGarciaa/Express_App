@@ -1,13 +1,19 @@
 package edu.bo.ucb.express_app.UserInterface.Pokemon;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
+import android.view.View;
+import android.widget.Button;
+
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.GridLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 import java.util.ArrayList;
 
 import edu.bo.ucb.express_app.R;
+import edu.bo.ucb.express_app.UserInterface.Galeria.GaleriaAdapter;
+import edu.bo.ucb.express_app.UserInterface.Menu.Menu;
 import edu.bo.ucb.express_app.UserInterface.Pokemon.ListaPokemonAdapter;
 import retrofit2.Call;
 import retrofit2.Callback;
@@ -31,6 +37,19 @@ public class PokemonActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_pokemon);
+
+        // CAMBIAR VISTA DE POKEDEX A MENU \\
+        Button menu;
+        menu = (Button)findViewById(R.id.btn_menu);
+
+        menu.setOnClickListener(new View.OnClickListener(){
+
+            @Override
+            public void onClick(View v) {
+                Intent i = new Intent(PokemonActivity.this, Menu.class);
+                startActivity(i);
+            }
+        });
 
         recyclerView = findViewById(R.id.recyclerView);
         listaPokemonAdapter = new ListaPokemonAdapter(this);

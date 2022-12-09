@@ -23,7 +23,8 @@
         app:layout_constraintStart_toStartOf="parent"
         android:drawableLeft="@drawable/ic_login"
         android:paddingLeft="60dp"
-        android:paddingRight="60dp"/>
+        android:paddingRight="60dp"
+        android:background="@drawable/btn_color"/>
 
     <ImageView
         android:id="@+id/imagen_gif"
@@ -45,8 +46,8 @@
         android:text="@string/description"
         android:textAlignment="center"
         android:textColor="@color/black"
+        android:fontFamily="@font/webcomic"
         android:textSize="20dp"
-        android:textStyle="italic"
         app:layout_constraintBottom_toTopOf="@+id/imageView5"
         app:layout_constraintEnd_toEndOf="@+id/imagen_gif"
         app:layout_constraintStart_toStartOf="@+id/imagen_gif"

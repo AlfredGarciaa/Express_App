@@ -6,6 +6,7 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.GridLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import edu.bo.ucb.express_app.R
+import edu.bo.ucb.express_app.UserInterface.Agradecimientos.Docente
 import edu.bo.ucb.express_app.UserInterface.Alarma.AlarmaAdapter
 import edu.bo.ucb.express_app.UserInterface.Camara.CamaraAdapter
 import edu.bo.ucb.express_app.UserInterface.Contactos.ContactosAdapter
@@ -29,6 +30,7 @@ class Menu : AppCompatActivity() {
             R.drawable.galeria,
             R.drawable.horario,
             R.drawable.cerrar_sesion,
+            R.drawable.docente_titular,
         )
 
         val list2= arrayListOf<String>(
@@ -39,6 +41,7 @@ class Menu : AppCompatActivity() {
             getString(R.string.Galeria),
             getString(R.string.Horario),
             getString(R.string.cerrar_sesion),
+            getString(R.string.title_agradecimiento),
         )
 
         val list3= arrayListOf<Intent>(
@@ -49,6 +52,7 @@ class Menu : AppCompatActivity() {
             Intent(this, GaleriaAdapter::class.java),
             Intent(this, HorarioAdapter::class.java),
             Intent(this, LoginAdapter::class.java),
+            Intent(this, Docente::class.java),
         )
 
         val gridLayout = GridLayoutManager(this,2)

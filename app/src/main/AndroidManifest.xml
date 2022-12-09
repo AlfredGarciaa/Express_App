@@ -74,6 +74,10 @@
             android:name=".UserInterface.Galeria.ImagenCompleta"
             android:label="@string/title_galeria_completa"
             android:exported="false" />
+        <activity
+            android:name=".UserInterface.Agradecimientos.Docente"
+            android:label="@string/title_agradecimiento"
+            android:exported="false" />
 
         <meta-data
             android:name="preloaded_fonts"
